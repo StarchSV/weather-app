@@ -1,0 +1,16 @@
+.main-info-container {
+    display: flex;
+    justify-content: space-between;
+    &__date {
+        padding: 20px;
+        flex-basis: 60vw;
+    }
+
+    &__location {
+        flex-basis: 40vw;
+        padding: 20px;
+        text-align: center;
+        border-radius: 0 30px 0 30px;
+        background-color: rgba(13, 159, 234, .08);
+    }
+}
